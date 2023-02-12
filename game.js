@@ -4,7 +4,7 @@ const object = ["Purse", "Plushie", "Lotion", "Ball", "Knife", "Bicycle", "Noteb
 "Glasses", "Plate", "Pen", "Perfume", "Doll", "Wagon", "DVD", "Needle", "Toothbrush", 
 "Clock", "Lamp", "Magnet", "Thread", "Vase", "Blouse", "Map", "Whip", "Feather",
  "Scissor", "Flag", "Folder", "Thermometer", "Lightbulb", "Towel", "Sandal", 
- "Sofa", "Poker", "Hanger", "Sponge", "Bucket", "Rug", "Camera", "Mob", "Shovel"
+ "Sofa", "Poker", "Hanger", "Sponge", "Bucket", "Rug", "Camera", "Mop", "Shovel"
 ];
 life = 5;
 hint = "";

@@ -35,7 +35,7 @@ function nextTurn()
         inputElement.value = "";      
         inputElement.maxLength = 20;  
         inputElement.placeholder = "Put your guess here";
-        document.getElementById("top").style.backgroundImage = "url(/Image/detective.jpg)";
+        document.getElementById("top").style.backgroundImage = "url(Image/detective.jpg)";
     }
     else
     {
@@ -46,7 +46,7 @@ function nextTurn()
         inputElement.value = "";      
         inputElement.maxLength = 10;
         inputElement.placeholder = "Write your hint here";
-        if(ans==objectAnswer)
+        if(ans.toLowerCase()==objectAnswer.toLowerCase())
         {
             window.location.href = "win.html";
         }

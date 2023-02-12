@@ -60,7 +60,7 @@ function nextTurn()
                 window.location.href = "lose.html";
             }
         }
-        document.getElementById("top").style.backgroundImage = "url(/Image/hostage.jpg)";
+        document.getElementById("top").style.backgroundImage = "url(Image/hostage.jpg)";
     }
     hostageTurn = !hostageTurn;
 }

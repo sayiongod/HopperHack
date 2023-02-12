@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel="stylesheet" href = "instruction.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300&display=swap" rel="stylesheet">
+    </header>
+    <body>
+        <div id = "instruction">
+            <div class = "category">
+                Objective:
+            </div>
+            <div class = "text">
+                · The objective of the game is for the Detective and the Hostage to work together and guess what the object is within five attempts
+            </div>
+            <br>
+            <div class = "category">
+                Roles:
+            </div>
+            <div class = "text">
+                · Detective: The player who attempts to guess what the object is. <br>
+                · Hostage: The player who provides hints to the Detective to help him/her guess the object.
+            </div>
+            <br>
+            <div class = "category">
+                Gameplay:
+            </div>
+            <div class = "text">
+                · Choose among yourself to who gets to be the detective and hostage. <br>
+                · The Hostage must provide one hint per guess attempt by the Detective. <br>
+                · Each hint must be at most ten characters. <br>
+                · If the Detective guesses incorrectly, the Hostage can provide another hint. <br>
+                · The Detective has five attempts to correctly guess the object. <br>
+            </div>
+            <br>
+            <div class = "category">
+                Win Condition:
+            </div>
+            <div class = "text">
+                · If the Detective and the Hostage are able to correctly guess the object within five attempts, they win and the Hostage is rescued.
+            </div>
+            <br>
+            <div class = "category">
+                Lose Condition:
+            </div>
+            <div class = "text">
+                · If the Detective is unable to guess the object after five attempts, they lose and the Hostage remains captive.
+            </div>
+        </div>
+
+        <div id = "ready" onclick = "game();">
+            <div id = "ready-text">
+                PLAY
+            </div>
+        </div>
+
+        <script>
+            function game()
+            {
+                window.location.href = "game.html";
+            }
+        </script>
+    </body>
+</html>

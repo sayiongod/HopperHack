@@ -1,0 +1,165 @@
+body
+{
+    margin:0;
+    background-image: url("Image/question-mark.jpg");
+}
+
+#guess-dice
+{
+    position:absolute;
+    top:0;
+    bottom:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index:-5;
+    height:100%;
+    width:100%;
+    margin:0;
+}
+
+.dice 
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:160px;
+    height:160px;
+    font-size:150px;
+    margin:20px;
+    border-radius:50%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    font-family: 'Caesar Dressing', cursive;
+    user-select: none;
+    opacity: .8;
+}
+
+#dice-g
+{
+    animation:letter-g 15s linear infinite;
+    background-color: #A5DEF2;
+}
+
+@keyframes letter-g
+{
+    0%
+    {
+        transform: translateY(20px);
+    }
+    50%
+    {
+        transform: translateY(500px);
+    }
+}
+
+#dice-u
+{  
+    animation:letter-u 10s linear infinite; 
+    background-color: #128FC8;
+}
+
+@keyframes letter-u
+{
+    0%
+    {
+        transform: translateY(20px);
+    }
+    50%
+    {
+        transform: translateY(520px);
+    }
+}
+
+#dice-e
+{
+    animation:letter-e 12s linear infinite; 
+    background-color: #A5DEF2;
+}
+
+@keyframes letter-e
+{
+    0%
+    {
+        transform: translateY(20px);
+    }
+    50%
+    {
+        transform: translateY(520px);
+    }
+}
+
+#dice-s-1
+{
+    animation:letter-s-1 8s linear infinite; 
+    background-color: #128FC8;
+}
+
+@keyframes letter-s-1
+{
+    0%
+    {
+        transform: translateY(20px);
+    }
+    50%
+    {
+        transform: translateY(520px);
+    }
+}
+
+#dice-s-2
+{
+    animation:letter-e 15s linear infinite; 
+    background-color: #A5DEF2;
+}
+
+@keyframes letter-s-2
+{
+    0%
+    {
+        transform: translateY(20px);
+    }
+    50%
+    {
+        transform: translateY(520px);
+    }
+}
+
+#play-button
+{
+    z-index:5;
+    bottom:30%;
+    right:50%;
+    height:100px;
+    margin-top:450px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#play-text
+{
+    background-color: #00ABFF;
+    width:200px;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+    cursor:pointer;
+    box-shadow: 5px 5px 5px #000000;
+    user-select: none;
+    font-family: 'Oleo Script', cursive;
+    font-size:60px;
+}
+
+#play-text:hover 
+{
+    background-color: #0088ff;
+}
+
+#play-text:active 
+{
+  background-color: #0088ff;
+  box-shadow: none;
+  transform: translate(5px,5px);
+}

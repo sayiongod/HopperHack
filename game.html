@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel="stylesheet" href = "game.css">
+    </header>
+
+    <body>
+        <div id = "top">
+            <div id = "turn">
+                Hostage Turn
+            </div>
+
+            <div id = object>
+                <span id = "object-text" onclick = "reveal()">Click to reveal the object</span>
+            </div>
+
+            <div id = hints>
+                <span id = "hints-text">1</span>
+            </div>
+        </div>
+        <div id = "bottom">
+            <div id = "bottom-1">
+                Number of guesses: 5
+            </div>
+            <div id = "bottom-2">
+                <input id = "input" type="text" maxlength="10" placeholder="Write your hint here">
+            </div>
+            <div id = "bottom-3" onclick = "nextTurn()">
+                Next
+            </div>
+        </div>
+        <script src="game.js"></script>
+    </body>
+</html>
